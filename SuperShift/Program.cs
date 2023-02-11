@@ -16,8 +16,8 @@ string message = string.Empty;
 
 if (k < 0)
 {
-    message = string.Format("на {0} эл. влево", k);
     k = -k;
+    message = string.Format("на {0} эл. влево", k);
     k %= array.Length;
 }
 else
